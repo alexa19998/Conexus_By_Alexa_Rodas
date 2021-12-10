@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.PantallaNivel2Facebook">
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonbuscar"
+        android:layout_width="398dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:srcCompat="@drawable/pantallabuscarface"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonnotificaciones"
+        android:layout_width="394dp"
+        android:layout_height="45dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonbuscar"
+        app:srcCompat="@drawable/barraprincipal"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpensando"
+        android:layout_width="406dp"
+        android:layout_height="93dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonnotificaciones"
+        app:srcCompat="@drawable/pantallacomenar"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonhistoriaspantalla"
+        android:layout_width="414dp"
+        android:layout_height="220dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpensando"
+        app:srcCompat="@drawable/historiaspantallasnivel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpublicacionface"
+        android:layout_width="421dp"
+        android:layout_height="177dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonhistoriaspantalla"
+        app:srcCompat="@drawable/finalpantalla"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonReiniciar14"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="EmpezarMenuAprenderFacebook"
+        android:text="@string/menu_aprender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpublicacionface"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

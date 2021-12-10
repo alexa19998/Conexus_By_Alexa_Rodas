@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.MenuAprenderFacebook">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/facebook_logos_png19757"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="321dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="@string/vamos_a_aprender_en_solo_dos_niveles"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/nivel_1"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/buttonIntroduccion2"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="EmpezarNivel1Facebook"
+        android:text="@string/introducci_n"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/nivel_2"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIntroduccion2"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonInterfaz2"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="EmpezarNivel2Facebook"
+        android:text="@string/interf_z"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/buttonReiniciar16"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="EmpezarAtrasFacebook"
+        android:text="@string/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInterfaz2"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

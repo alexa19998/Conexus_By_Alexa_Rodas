@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.conexus" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Conexus" >
+        <activity
+            android:name=".Facebook.PantallaNivel2Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallaNivel2Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PantallaDiferenciadorFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallaDiferenciadorInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.Pantalla1CreacionHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.Pantalla1CreacionHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PantallaComponentesHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallaComponentesHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallasUtilidadHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PantallasUtilidadHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PantallaJugarFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallaJugarInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PantallasNivel1Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PantallasNivel1Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.DiferenciadorHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.DiferenciadorHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.CreacionHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.CreacionHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.ComponentesHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.ComponentesHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.UtilidadHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.UtilidadHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.Nivel2Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.Nivel2Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.Nivel1Facebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.Nivel1Instagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.MenuHistoriasFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.MenuHistoriasInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.TestFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.TestInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.MenuAprenderFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.MenuAprenderInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".Facebook.PrimeraPantallaFacebook"
+            android:exported="false" />
+        <activity
+            android:name=".Instagram.PrimeraPantallaInstagram"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".PrimeraPantalla"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InicioSesion"
+            android:exported="false" />
+    </application>
+
+</manifest>

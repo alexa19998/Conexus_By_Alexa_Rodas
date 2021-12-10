@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Conexus</string>
+    <string name="empezar">Empezar</string>
+    <string name="bienvenido_a_la_era_digital_si_estas_aqui_es_porque_quieres_hacer_parte_de_ella_te_invito_a">Bienvenido a la era digital, si estas aqui es porque quieres hacer parte de ella, te invito a:</string>
+    <string name="todo">TODO</string>
+    <string name="inicio_de_sesi_n">INICIO DE SESIÓN</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="agregar_nuevo_usuario">Agregar Nuevo Usuario</string>
+    <string name="guardar">Guardar</string>
+    <string name="a_continuaci_n_escoge_la_red_social_de_la_que_te_quieres_instruir">A continuación escoge la red social de la que te quieres instruir:</string>
+    <string name="aprender">Aprender</string>
+    <string name="prueba_lo_aprendido">Prueba lo Aprendido</string>
+    <string name="creacion_de_historias">Creacion de Historias</string>
+    <string name="vamos_a_aprender_en_solo_dos_niveles">Vamos a aprender en solo dos niveles:</string>
+    <string name="nivel_1">NIVEL 1</string>
+    <string name="introducci_n">Introducción</string>
+    <string name="nivel_2">NIVEL 2</string>
+    <string name="interf_z">Interfaz</string>
+    <string name="modalidad_de_historias">MODALIDAD DE HISTORIAS</string>
+    <string name="explicacion_de_utilidad">Explicacion de Utilidad</string>
+    <string name="componentes_basicos">Componentes Basicos</string>
+    <string name="creacion_historias">Creacion Historias</string>
+    <string name="demuesta_que_sabes_diferenciar">Demuesta que sabes diferenciar</string>
+    <string name="a_continuaci_n_tendras_una_introducci_n_detallada_a_instagram">A continuación tendras una introducción detallada a Instagram.</string>
+    <string name="a_continuaci_n_tendras_una_introducci_n_detallada_a_facebook">A continuación tendras una introducción detallada a Facebook.</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="menu_aprender">Menu Aprender</string>
+    <string name="titulo">Titulo</string>
+    <string name="a_continuacion_tendras_una_serie_de_preguntas_relativas_a_lo_que_aprendiste_de_facebook">A continuacion tendras una serie de preguntas relativas a lo que aprendiste de Facebook.</string>
+    <string name="a_continuacion_tendras_una_serie_de_preguntas_relativas_a_lo_que_aprendiste_de_instagram">A continuacion tendras una serie de preguntas relativas a lo que aprendiste de Instagram.</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="a_continuacion_tendras_una_introduccion_detallada_a_las_historias_de_facebook">A continuacion tendras una introduccion detallada a las historias de Facebook.</string>
+    <string name="a_continuacion_tendras_una_introduccion_detallada_a_las_historias_de_instagram">A continuacion tendras una introduccion detallada a las historias de Instagram.</string>
+    <string name="menu_historias">Menu historias</string>
+    <string name="a_continuacion_tendras_explicaci_n_de_los_componentes_de_las_historias_de_instagram">A continuacion tendras explicación de los componentes de las historias de Instagram</string>
+    <string name="a_continuacion_tendras_explicaci_n_de_los_componentes_de_las_historias_de_facebook">A continuacion tendras explicación de los componentes de las historias de Facebook</string>
+    <string name="hora_de_aprender_lo_que_aprendiste_trata_de_replicar_las_fotos">!Hora de demostrar lo que aprendiste, trata de replicar las fotos!</string>
+    <string name="a_continuaci_n_tendras_preguntas_relativas_a_lo_que_aprendite_y_tienes_que_aprender_a_diferenciar">A continuación tendras preguntas relativas a lo que ya sabes y tienes que aprender a diferenciar</string>
+    <string name="camara">Camara</string>
+    <string name="a_continuaci_n_tendras_un_simulador_donde_puedes_tocar_y_saber_donde_se_encuentran_los_componentes">A continuación tendras un simulador, donde puedes tocar y saber donde se encuentran los componentes</string>
+    <string name="atras">atras</string>
+
+</resources>

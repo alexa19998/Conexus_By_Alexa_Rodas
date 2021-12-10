@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.PantallaJugarFacebook">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvEnunciado4"
+        android:layout_width="321dp"
+        android:layout_height="124dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="Hello World!"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="127dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnunciado4"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton"
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSiguiente4"
+        android:layout_width="127dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="36dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="Siguiente"
+        android:text="@string/siguiente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonReiniciar4"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:text="@string/menu_aprender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSiguiente4"
+        app:layout_constraintTop_toBottomOf="@+id/rg"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.Pantalla1CreacionHistoriasFacebook">
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/titulo8"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#9C27B0"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="153dp"
+        android:layout_height="324dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="37dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo8"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="153dp"
+        android:layout_height="324dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="23dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo8"
+        app:srcCompat="@drawable/polaroidcamara"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSiguiente12"
+        android:layout_width="127dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="Siguiente"
+        android:text="@string/siguiente"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCamara2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonCamara2"
+        android:layout_width="113dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:text="@string/camara"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+    <Button
+        android:id="@+id/buttonReiniciar12"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="114dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:text="@string/menu_historias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCamara2"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.PrimeraPantallaFacebook">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="9dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/facebook_logos_png19757"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonAprender2"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="MenuAprenderFacebook"
+        android:text="@string/aprender"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/buttonProbar2"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="JugarFacebook"
+        android:text="@string/prueba_lo_aprendido"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAprender2" />
+
+    <Button
+        android:id="@+id/buttonCrearHistorias2"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="MenuHistoriasFacebook"
+        android:text="@string/creacion_de_historias"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProbar2" />
+
+    <Button
+        android:id="@+id/buttonReiniciar18"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="MenuPrincipalFacebook"
+        android:text="@string/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCrearHistorias2"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

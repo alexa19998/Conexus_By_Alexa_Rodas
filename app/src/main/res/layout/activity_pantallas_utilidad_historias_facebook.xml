@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.PantallasUtilidadHistoriasFacebook">
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/titulo4"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textColor="#9C27B0"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <TextView
+        android:id="@+id/tvEnunciado6"
+        android:layout_width="322dp"
+        android:layout_height="198dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text="Hello World!"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo4"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEnunciado6"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/btnSiguiente6"
+        android:layout_width="127dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="Siguiente"
+        android:text="@string/siguiente"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonReiniciar6"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:text="@string/menu_historias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSiguiente6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

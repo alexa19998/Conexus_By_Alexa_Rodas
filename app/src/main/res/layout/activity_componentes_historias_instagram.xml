@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Instagram.ComponentesHistoriasInstagram">
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="324dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/a_continuacion_tendras_explicaci_n_de_los_componentes_de_las_historias_de_instagram"
+        android:textColor="#ffffff"
+        android:textSize="37sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonAprender9"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="EmpezarPantallaComponentesInstagram"
+        android:text="@string/empezar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

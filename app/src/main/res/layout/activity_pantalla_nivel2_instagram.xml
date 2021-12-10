@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Instagram.PantallaNivel2Instagram">
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMensajes"
+        android:layout_width="393dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView59"
+        app:srcCompat="@drawable/mensajesnive"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHistorias"
+        android:layout_width="392dp"
+        android:layout_height="96dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMensajes"
+        app:srcCompat="@drawable/historiasllbarra"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonopciones"
+        android:layout_width="398dp"
+        android:layout_height="40dp"
+        android:background="#FDFCFC"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonHistorias"
+        app:srcCompat="@drawable/usuario"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpublicacion"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonopciones"
+        app:srcCompat="@drawable/publicacionn"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtoninteraccionespublicacion"
+        android:layout_width="400dp"
+        android:layout_height="38dp"
+        android:background="#F6F5F5"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonpublicacion"
+        app:srcCompat="@drawable/barrapublicacion"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCaption"
+        android:layout_width="395dp"
+        android:layout_height="65dp"
+        android:background="#F6F5F5"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtoninteraccionespublicacion"
+        app:srcCompat="@drawable/comentario"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMenuPrincipal"
+        android:layout_width="411dp"
+        android:layout_height="40dp"
+        android:background="#FAF7F7"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCaption"
+        app:srcCompat="@drawable/cosasinsta"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/buttonReiniciar13"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="EmpezarMenuAprenderInstagram"
+        android:text="@string/menu_aprender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMenuPrincipal"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

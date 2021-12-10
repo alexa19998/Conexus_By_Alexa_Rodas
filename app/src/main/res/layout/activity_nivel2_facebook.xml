@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".Facebook.Nivel2Facebook">
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="324dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/a_continuaci_n_tendras_un_simulador_donde_puedes_tocar_y_saber_donde_se_encuentran_los_componentes"
+        android:textColor="#ffffff"
+        android:textSize="37sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonAprender15"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:backgroundTint="#9C27B0"
+        android:onClick="EmpezarPantallasNivel2Facebook"
+        android:text="@string/empezar"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

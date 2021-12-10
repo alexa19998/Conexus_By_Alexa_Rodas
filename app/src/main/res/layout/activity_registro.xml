@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".InicioSesion">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="321dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/agregar_nuevo_usuario"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="308dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/usuario"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="308dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="34dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/contrase_a"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegUser"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/boton_redondo_menu"
+        android:onClick="RegistrarDataUser"
+        android:text="@string/guardar"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegPass"
+        tools:ignore="OnClick" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
